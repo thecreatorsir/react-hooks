@@ -7,6 +7,8 @@ import UseEff from "./components/useEff";
 import useEff from "./components/useEff";
 import Mimic from "./components/MimcComDidMount";
 import Interval from "./components/IntervelHookCounter";
+import Datafetching from "./components/DataFetching";
+import Usereducer from "./components/Usereducer1";
 function App() {
   return (
     <div className='App'>
@@ -15,7 +17,9 @@ function App() {
       {/* <HooksCounter3 /> */}
       {/* <UseEff /> */}
       {/* <Mimic /> */}
-      <Interval />
+      {/* <Interval /> */}
+      {/* <Datafetching /> */}
+      <Usereducer />
     </div>
   );
 }
